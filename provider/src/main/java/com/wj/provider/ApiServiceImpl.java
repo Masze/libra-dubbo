@@ -11,6 +11,7 @@ public class ApiServiceImpl implements ApiService {
 	@Override
 	public String doSomeThing(String param) {
 		System.out.println("provider param ： " + param);
+
 		return param;
 	}
 }
